@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #232323;
+    font-family: Arial,sans-serif;
+}
+.nav{
+    height: 3.75rem;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4rem;
+}
+.text{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.r-p1{
+    margin-left:1rem ;
+    margin-right: 0.4rem;
+    padding: 0.4rem;
+}
+.r-p2{
+    padding: 0.35rem;
+}
+.text:hover{
+    text-decoration:underline;
+}
+.left-part{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+.l-p1{
+    margin-left:1rem ;
+    margin-right: 0.4rem;
+    padding: 0.4rem;
+}
+.l-p2{
+    margin-right: 0.5rem;
+    padding: 0.4rem;
+}
+.l-icons1 i{
+    padding: 0.4rem;
+    font-size: 1.5rem;
+    border-radius: 50%;
+}
+.l-icons1 i:hover{
+    background-color:rgba(128, 128, 128, 0.3);
+}
+.l-icons2 button{
+    padding: 0.75rem 1.75rem;
+    border: 2px solid black;
+    border-radius: 50px;
+    color: black;
+    background-color:rgb(55, 195, 242);
+    font-size: 0.9rem;
+    font-weight:400;
+} 
+.l-icons2 button:hover{
+border: 2px solid white;
+}
+
+.name{
+    color: azure;
+    font-size:5.5rem;
+    font-family: Arial, sans-serif;
+    font-weight: 550;
+    text-align: center;
+    letter-spacing:-5px;
+    line-height: 6rem;
+}
+.search-items{
+    height:9rem;
+    padding: 1.25rem;
+    background-color: #232323;
+    justify-content: center;
+
+    
+}
+.scearch-bar{
+    height: 50px;
+    width: 95%;
+    background-color: #232323;
+    display: flex;
+    align-items: center;
+    border: 2px solid #646363;
+    border-radius: 25px;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    justify-content:space-between;
+}
+.scearch-bar:hover{
+    border: 2px solid #908a8a;
+}
+.search-icon{
+    padding: 0 0 0 1rem;
+}
+.search-icon i{
+    cursor: pointer;
+}
+.input{
+    width:48rem;
+    height:1.8rem;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding-left: 5px;
+    font-size: 25px;
+}
+.btn{
+    color: white;
+    border: 1px solid #303134;
+    border-radius: 8px;
+    padding: 0.1rem;
+    cursor: pointer;
+    opacity: 0.6;
+    font-size: 18px;
+    margin-bottom: 3px;
+    
+}
+.btn:hover{
+    border: 1px solid grey;
+    opacity: 1;
+}
+.glow{
+    opacity: 0.5;
+}
+.glow:hover{
+    opacity: 1;
+}
+.screach-feature{
+    margin: 2rem 1rem 5rem 4rem;
+    text-align: center;
+    background-color: #232323;
+}
+.screach-feature button{
+    font-size: 16px;
+}
+.btn-s {
+    color: aliceblue;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 2px solid #303134;;
+    background-color: #303134;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-s:hover{
+     border: 2px solid grey;
+}
+.feature-space{
+    height:210px;
+    color:white ;
+    text-align: center;
+    line-height: 60px;
+}
+.feature-space a{
+    text-decoration: none;
+    color: lightskyblue;
+}
+.feature-space a:hover{
+    text-decoration: underline;
+}
+.footer{
+    height: 48px;
+    padding: 1rem 2rem;
+    border-top: 1px solid #646363;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 2rem 0 0;
+    
+}
+.foot a{
+     color: white;
+    font-size: 1.05rem;
+    text-decoration: none;
+    margin: 1rem;
+}
+.foot a:hover{
+    text-decoration: underline;
+}
